@@ -19,7 +19,6 @@ function App() {
   return (
     <DeckGL controller={true} initialViewState={INITIAL_VIEW_STATE}>
       <ReactMapGLMap
-        mapboxAccessToken={process.env.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN}
         mapStyle={MAP_STYLE}
       />
       <ArcLayer
